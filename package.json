@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-Node-Express",
+  "author": "Daniel Benedict L. Omoto",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
