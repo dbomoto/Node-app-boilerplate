@@ -1,13 +1,21 @@
+
+// these are middlewares
 var express = require('express');
-var app = express();
 var bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded({ extended: false }));
+// initialization of middleware
+var app = express();
 
+
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(function(req,res,next){
   console.log(`${req.method} ${req.path} - ${req.ip}`)
   next();
 })
+
+// this redirects the it to the /public folder of the server whenever /public is requested 
+app.use("/public",express.static(__dirname + "/public"));
+
 
 app.get("/now",function(req,res,next){
   req.time = new Date().toString();
@@ -17,9 +25,6 @@ app.get("/now",function(req,res,next){
 })
 
 app.get("/:word/echo", (req,res)=>{
-  // console.log(req.params)
-  // const {word} = req.params;
-  // console.log({word})
   res.json({
     echo: req.params.word
   })
@@ -42,8 +47,6 @@ var absolutePath = __dirname + "/views/index.html";
 app.get("/",function(req,res){
   res.sendFile(absolutePath);
 })
-
-app.use("/public",express.static(__dirname + "/public"));
 
 app.get("/json",function(req,res){
 if (process.env.MESSAGE_STYLE === "uppercase"){
