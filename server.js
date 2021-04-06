@@ -43,7 +43,7 @@ app.post('/name',(req,res)=>{
 })
 
 console.log("Hello World");
-var absolutePath = __dirname + "/views/index.html";
+var absolutePath = __dirname + "/HTML Files/index.html";
 app.get("/",function(req,res){
   res.sendFile(absolutePath);
 })
