@@ -1,6 +1,9 @@
 
-// these are middlewares
+// Fast, unopinionated, minimalist web framework for Node.js
 var express = require('express');
+
+// Node.js body parsing middleware.
+// Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
 var bodyParser = require('body-parser');
 
 // initialization of middleware
