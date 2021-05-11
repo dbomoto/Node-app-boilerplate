@@ -8,7 +8,7 @@
 5. Routes
 6. Useful Functions
 7. Useful Definitions
-8. Markdown Cheat Sheet
+8. [Markdown Cheat Sheet](#section8)
 ***
 ### Section 1 : Development Process Tree (for arranging)
 - UI/UX Design
@@ -48,7 +48,7 @@ git push - push your changes to the repository
 Fork - a copy of a repo ON GITHUB, relative to Github scope ( i.e. a copy of a PEN ON CODEPEN )
 Clone - a copy of a repo ON THE LOCAL MACHINE, relative to where the machine is ( i.e PC, HEROKU, REPLIT, GLITCH )
 ****
-### Section 8 : Markdown Cheat Sheet
+### <a name="section8">Section 8 : Markdown Cheat Sheet</a>
 Headers
 ```
 # h1
