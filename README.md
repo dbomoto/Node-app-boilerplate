@@ -1,7 +1,7 @@
-# Boilerplate for Node App
+# Node App Boilerplate
 
-## Table of contents
-1. Development Process Tree
+## <a name="tableofcontents">Table of contents</a>
+1. [Development Process Tree](#section1)
 2. NPM Commands
 3. Git Commands
 4. Modules / Libraries  
@@ -10,20 +10,24 @@
 7. Useful Definitions
 8. [Markdown Cheat Sheet](#section8)
 ***
-### Section 1 : Development Process Tree (for arranging)
-- UI/UX Design
-- Purpose of app (everything depends on this)
-- Scope of app (who will use it)
-- Tests (unit, functional, headless, injections)
-- Code (it's ok to be dirty, clean it on refactoring)
-- User Stories (simulated user exp)
-- User Review (get it out ASAP)
-- Deployment (replit, glitch, heroku, etc)
-- Database (MongoDB & replit)
-- Authentication (Passport local and Oauth)
-- Webchat (if it matches with the purpose)
+### <a name="section1">Section 1 : Development Process Tree</a>
+#### [Back to Table of Contents](#tableofcontents)
+- Purpose of app *(everything depends on this)*
+- Scope of app *(who will use it)*
+- User Stories *(simulated user exp)*
+- Deployment *(replit, glitch, heroku, etc)*
+- UI/UX Design *(plan out how you want your users to interact with your app)*
+- Code *(it's ok to be dirty, clean it on refactoring)*
+- Database *(MongoDB & replit ; only if the app needs it)*
+- Tests *(unit, functional, headless ; focus on the app fucntionality)*
+- Authentication *(Passport local and Oauth)*
+- Webchat *(only if the the app needs it)*
+- Security *(sql injections, hacks, vulnerabilities, unintentional public API)*
+- User Review *(get it out ASAP)*
+- Refactoring *(optimize your code)*
 ****
 ### Section 2 : NPM Commands
+#### [Back to Table of Contents](#tableofcontents)
 Most used commands so far
 npm init y  - initializes defaults to yes of package.json, usually used at the beginning of the project on initialization
 npm i [library] - installs your chosen library, without brackets
@@ -32,6 +36,7 @@ npm --save-dev [library] - installs your chosen library, without brackets, to de
 npm install - installs all the libraries indicated in the package.json
 ****
 ### Section 3 : Git Commands
+#### [Back to Table of Contents](#tableofcontents)
 Mose used commands so far
 git - shows help and instructions for each command
 git status - shows the whether the changed files are in the staging, commit, or push phase
@@ -45,10 +50,12 @@ git push - push your changes to the repository
   - Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password, SSH Keys won't work.
 ****
 ### Section 7 : Useful Definitions
+#### [Back to Table of Contents](#tableofcontents)
 Fork - a copy of a repo ON GITHUB, relative to Github scope ( i.e. a copy of a PEN ON CODEPEN )
 Clone - a copy of a repo ON THE LOCAL MACHINE, relative to where the machine is ( i.e PC, HEROKU, REPLIT, GLITCH )
 ****
 ### <a name="section8">Section 8 : Markdown Cheat Sheet</a>
+#### [Back to Table of Contents](#tableofcontents)
 Headers
 ```
 # h1
