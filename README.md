@@ -2,8 +2,8 @@
 
 ## <a name="tableofcontents">Table of contents</a>
 1. [Development Process Tree](#section1)
-2. NPM Commands
-3. Git Commands
+2. [NPM Commands](#section2)
+3. [Git Commands](#section3)
 4. Modules / Libraries  
 5. Routes
 6. Useful Functions
@@ -26,28 +26,41 @@
 - User Review *(get it out ASAP)*
 - Refactoring *(optimize your code)*
 ****
-### Section 2 : NPM Commands
+### <a name="section2">Section 2 : NPM Commands</a>
 #### [Back to Table of Contents](#tableofcontents)
 Most used commands so far
-npm init y  - initializes defaults to yes of package.json, usually used at the beginning of the project on initialization
-npm i [library] - installs your chosen library, without brackets
-npm --save-dev [library] - installs your chosen library, without brackets, to devDependencies of package.json
-  - note, Replit seems to have an error on devDependencies declarations, but it is OK in VSCode.
-npm install - installs all the libraries indicated in the package.json
+- `npm init y`  
+  * initializes defaults to yes of package.json, usually used at the beginning of the project on initialization
+- `npm i [library]`
+  * installs your chosen library, without brackets
+- `npm --save-dev [library]`
+  * installs your chosen library, without brackets, to devDependencies of package.json
+  * note, Replit seems to have an error on devDependencies declarations, but it is OK in VSCode.
+- `npm install`
+  * installs all the libraries indicated in the package.json
 ****
-### Section 3 : Git Commands
+### <a name="section3">Section 3 : Git Commands</a>
 #### [Back to Table of Contents](#tableofcontents)
 Mose used commands so far
-git - shows help and instructions for each command
-git status - shows the whether the changed files are in the staging, commit, or push phase
-git config - a lot of configuration, but the most used is setting up the user.name and user.email for Replit contributions be credited on Github coding days. 
-  - user.name "Daniel Benedict L. Omoto" , exact name used on Github
-  - user.email [email] , email without brackets
-git config --global -list / git config --local -list - shows a list of configurations on --global or --local
-git add --all / git add . - adds all the changes to the staging area
-git add [filename] - adds the file, without brackets, to the staging area and ready for commit
-git push - push your changes to the repository
-  - Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password, SSH Keys won't work.
+- `git`
+  * shows help and instructions for each command
+- `git status`
+  * shows the whether the changed files are in the staging, commit, or push phase
+- `git config`
+  * show a list of configurations, but the most used is setting up the user.name and user.email for Replit contributions be credited on Github coding days. 
+  * user.name "name" , exact name used on Github
+  * user.email [email] , email without brackets
+- `git config --global -list` / `git config --local -list`
+  * shows a list of configurations on --global or --local 
+- `git add --all` / `git add .`
+   * adds all the changes to the staging area
+- `git add [filename]`
+  * adds the file, without brackets, to the staging area and ready for commit
+- `git push`
+  * push your changes to the repository
+
+Notes:
+* Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password via Git, SSH Keys won't work.
 ****
 ### Section 7 : Useful Definitions
 #### [Back to Table of Contents](#tableofcontents)
