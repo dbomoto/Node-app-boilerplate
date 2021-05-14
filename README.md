@@ -7,7 +7,7 @@
 4. Modules / Libraries  
 5. Routes
 6. Useful Functions
-7. Useful Definitions
+7. [Useful Definitions](#section7)
 8. [Markdown Cheat Sheet](#section8)
 ***
 ### <a name="section1">Section 1 : Development Process Tree</a>
@@ -62,10 +62,12 @@ Mose used commands so far
 Notes:
 * Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password via Git, SSH Keys won't work.
 ****
-### Section 7 : Useful Definitions
+### <a name="section7">Section 7 : Useful Definitions</a>
 #### [Back to Table of Contents](#tableofcontents)
-Fork - a copy of a repo ON GITHUB, relative to Github scope ( i.e. a copy of a PEN ON CODEPEN )
-Clone - a copy of a repo ON THE LOCAL MACHINE, relative to where the machine is ( i.e PC, HEROKU, REPLIT, GLITCH )
+- Fork 
+> a copy of a repo ON GITHUB, relative to Github scope ( i.e. a copy of a PEN ON CODEPEN )
+- Clone 
+> a copy of a repo ON THE LOCAL MACHINE, relative to where the machine is ( i.e PC, HEROKU, REPLIT, GLITCH )
 ****
 ### <a name="section8">Section 8 : Markdown Cheat Sheet</a>
 #### [Back to Table of Contents](#tableofcontents)
