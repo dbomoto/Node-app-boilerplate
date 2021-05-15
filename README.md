@@ -4,7 +4,7 @@
 1. [Development Process Tree](#section1)
 2. [NPM Commands](#section2)
 3. [Git Commands](#section3)
-4. Modules / Libraries  
+4. [Modules / Libraries](#section4)  
 5. Routes
 6. Useful Functions
 7. [Useful Definitions](#section7)
@@ -61,6 +61,20 @@ Mose used commands so far
 
 Notes:
 * Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password via Git, SSH Keys won't work.
+****
+### <a name="section4">Section 4 : Modules / Libraries</a>
+#### [Back to Table of Contents](#tableofcontents)
+- dotenv
+- express
+- boydparser
+- mongodb
+- mongoose
+- nodemon
+- chai
+- chai-http
+- zombie
+- mocha
+- passport
 ****
 ### <a name="section7">Section 7 : Useful Definitions</a>
 #### [Back to Table of Contents](#tableofcontents)
