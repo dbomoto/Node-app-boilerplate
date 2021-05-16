@@ -5,9 +5,9 @@
 2. [NPM Commands](#section2)
 3. [Git Commands](#section3)
 4. [Modules / Libraries](#section4)  
-5. Routes
-6. Useful Functions
-7. [Useful Definitions](#section7)
+5. [Express Routes](#section5)
+6. [Useful Functions](#section6)
+7. [Definitions](#section7)
 8. [Markdown Cheat Sheet](#section8)
 ***
 ### <a name="section1">Section 1 : Development Process Tree</a>
@@ -76,7 +76,13 @@ Notes:
 - mocha
 - passport
 ****
-### <a name="section7">Section 7 : Useful Definitions</a>
+### <a name="section5">Section 5 : Express routes</a>
+#### [Back to Table of Contents](#tableofcontents)
+****
+### <a name="section6">Section 6 : Useful Functions</a>
+#### [Back to Table of Contents](#tableofcontents)
+****
+### <a name="section7">Section 7 : Definitions</a>
 #### [Back to Table of Contents](#tableofcontents)
 - Fork 
 > a copy of a repo ON GITHUB, relative to Github scope ( i.e. a copy of a PEN ON CODEPEN )
