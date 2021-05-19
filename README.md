@@ -10,6 +10,7 @@
 7. [Definitions](#section7)
 8. [Markdown Cheat Sheet](#section8)
 9. [Replit](#section9)
+10. [Requests Template](#section10)
 ***
 ### <a name="section1">Section 1 : Development Process Tree</a>
 #### [Back to Table of Contents](#tableofcontents)
@@ -182,3 +183,7 @@ Horizontal Line
 ### <a name="section9">Section 9 : Replit</a>
 #### [Back to Table of Contents](#tableofcontents)
 -on using git in Replit, make sure to add, commit, and push on the same session so as to avoid errors. if you leave it for tommorrow, it gets confused.
+****
+### <a name="section10">Section 10 : Request Template</a>
+#### [Back to Table of Contents](#tableofcontents)
+
