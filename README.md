@@ -69,6 +69,7 @@ Notes:
 - dotenv
 - express
 - boydparser
+- multer
 - mongodb
 - mongoose
 - nodemon
@@ -187,3 +188,35 @@ Horizontal Line
 ### <a name="section10">Section 10 : Request Template</a>
 #### [Back to Table of Contents](#tableofcontents)
 
+##### TEMPLATE 1
+```
+FRONTEND CODE
+  async function formRequest() {
+    const form = new FormData(formID)
+    const data = await fetch('/definedRoute',{
+      method: 'POST',
+      body: form
+    })
+    // process response from server
+    const parsed = await data.json()
+    // use 'parsed' to display client data on webpage; e.g.
+    divID.innerHTML = `<p>${parsed.data}</p>`
+  }
+
+  // prevents the default action of the <form> tag and instead uses the function formRequest()
+  submitSearch.onsubmit = (e) => {
+    e.preventDefault();
+    formRequest();
+  }
+
+SERVER CODE
+  const multer = require('multer');
+  // load multer on app
+  let upload = multer();
+  // for parsing multipart/form-data
+  app.use(upload.array()); 
+  
+  //request can be accessed on the object below
+  req.body
+
+```  
