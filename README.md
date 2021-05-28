@@ -58,6 +58,8 @@ Mose used commands so far
    * adds all the changes to the staging area
 - `git add [filename]`
   * adds the file, without brackets, to the staging area and ready for commit
+- `git commit -m "message here"`
+  * commits the changed and added files with a message
 - `git push`
   * push your changes to the repository
 
@@ -183,7 +185,8 @@ Horizontal Line
 ****
 ### <a name="section9">Section 9 : Replit</a>
 #### [Back to Table of Contents](#tableofcontents)
--on using git in Replit, make sure to add, commit, and push on the same session so as to avoid errors. if you leave it for tommorrow, it gets confused.
+- On using git in Replit, make sure to add, commit, and push on the same session so as to avoid errors. If you leave it for tommorrow, it gets confused.
+- Another way to push contributions to Github from Replit, is to "add" and "commit" using the console or shell, then "push" using the Replit version control tool for Github. This skips those annoying errors of multiple branch detected where it does'nt even exist, and records your contribution. Just make sure to set your ```git config user.name``` and ```git config user.email``` according to your Github account.
 ****
 ### <a name="section10">Section 10 : Request Template</a>
 #### [Back to Table of Contents](#tableofcontents)
