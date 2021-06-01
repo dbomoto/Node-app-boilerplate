@@ -80,6 +80,7 @@ Notes:
 - zombie
 - mocha
 - passport
+- cors
 ****
 ### <a name="section5">Section 5 : Express routes</a>
 #### [Back to Table of Contents](#tableofcontents)
