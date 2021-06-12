@@ -21,7 +21,7 @@
 - UI/UX Design *(plan out how you want your users to interact with your app)*
 - Code *(it's ok to be dirty, clean it on refactoring)*
 - Database *(MongoDB & replit ; only if the app needs it)*
-- Tests *(unit, functional, headless ; focus on the app fucntionality)*
+- Tests *(unit, functional, headless ; focus on the app fucntionality)(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
 - Authentication *(Passport local and Oauth)*
 - Webchat *(only if the the app needs it)*
 - Security *(sql injections, hacks, vulnerabilities, unintentional public API)*
