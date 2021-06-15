@@ -18,7 +18,7 @@
 - Scope of app *(who will use it)*
 - User Stories *(simulated user exp)*
 - Deployment *(replit, glitch, heroku, etc)*
-- UI/UX Design *(plan out how you want your users to interact with your app)*
+- UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during alpha, reserve the eyecandy during refactoring)(Bulma or Bootstrap5 still debating)
 - Code *(it's ok to be dirty, clean it on refactoring)*
 - Database *(MongoDB & replit ; only if the app needs it)*
 - Tests *(unit, functional, headless ; focus on the app fucntionality)(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
