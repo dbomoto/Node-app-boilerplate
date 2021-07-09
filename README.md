@@ -66,7 +66,7 @@ Mose used commands so far
 Notes:
 * Replit is an HTPPS so it will ALWAYS ask for your Github Username and Password via Git, SSH Keys won't work.
 ****
-### <a name="section4">Section 4 : Modules / Libraries</a>
+### <a name="section4">Section 4 : Modules / Libraries / Frameworks</a>
 #### [Back to Table of Contents](#tableofcontents)
 - dotenv
 - express
@@ -81,6 +81,8 @@ Notes:
 - mocha
 - passport
 - cors
+- gridjs
+- print-js
 ****
 ### <a name="section5">Section 5 : Express routes</a>
 #### [Back to Table of Contents](#tableofcontents)
