@@ -20,7 +20,7 @@
 - Deployment *(replit, glitch, heroku, etc)*
 - UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during alpha, reserve the eyecandy during refactoring)(Bulma or Bootstrap5 still debating)
 - Code *(it's ok to be dirty, clean it on refactoring)*
-- Database *(MongoDB & replit ; only if the app needs it)*
+- Database *(MongoDB & replit ; only if the app needs it ; should be one of the first things you design in your app)*
 - Tests *(unit, functional, headless ; focus on the app fucntionality)(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
 - Authentication *(Passport local and Oauth)*
 - Webchat *(only if the the app needs it)*
@@ -75,14 +75,17 @@ Notes:
 - mongodb
 - mongoose
 - nodemon
-- chai
-- chai-http
-- zombie
-- mocha
+- chai  (use replit tests instead?)
+- chai-http (use replit tests instead?)
+- zombie  
+- mocha (use replit tests instead?)
 - passport
 - cors
 - gridjs
 - print-js
+- tailwindcss
+- postcss
+- autoprefixer
 ****
 ### <a name="section5">Section 5 : Express routes</a>
 #### [Back to Table of Contents](#tableofcontents)
