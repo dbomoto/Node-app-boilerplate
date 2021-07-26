@@ -229,3 +229,9 @@ SERVER CODE
   req.body
 
 ```  
+
+## ERRORS ENCOUNTERED ANS SOLUTIONS
+IDE: replit
+Error: ENOENT: no such file or directory, open '/home/runner/MLOAccountingapp/index.js'
+Solution: renamed "server.js" to "index.js"
+
