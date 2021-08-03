@@ -16,17 +16,20 @@
 #### [Back to Table of Contents](#tableofcontents)
 - Purpose of app *(everything depends on this)*
 - Scope of app *(who will use it)*
-- User Stories *(simulated user exp)*
-- Deployment *(replit, glitch, heroku, etc)*
-- UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during alpha, reserve the eyecandy during refactoring)(Bulma or Bootstrap5 still debating)
-- Code *(it's ok to be dirty, clean it on refactoring)*
-- Database *(MongoDB & replit ; only if the app needs it ; should be one of the first things you design in your app)*
-- Tests *(unit, functional, headless ; focus on the app fucntionality)(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
+- Database *(decide on what type of database paradigm to use (mongodb, sql, etc.) ; only if the app needs it ; should be one of the first things you design in your app ; depends heavily on what types of data you want to store)*
+- Renderingg (decide whethere to render the html on the server side or on the client side)
+- Server Design (decide which one to use depending on the app requirements, Node, Python, PHP)
+- App Hosting *(replit, glitch, heroku, etc)* 
+- Tests *(unit, functional, headless ; focus on the app fucntionality(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
+- UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during development, bare minimum inputs and outputs needed that matches with the test, reserve the eyecandy during refactoring)(TAILWIND CSS)
 - Authentication *(Passport local and Oauth)*
-- Webchat *(only if the the app needs it)*
-- Security *(sql injections, hacks, vulnerabilities, unintentional public API)*
+- Code (focus on coding per feature, code the front and back end together, use  MVC architecture)
+- Security *(sql injections, hacks, vulnerabilities, unintentional public API), verify user inputs on server side*
+- User Stories *(simulated user exp)*
 - User Review *(get it out ASAP)*
 - Refactoring *(optimize your code)*
+
+- Webchat *(only if the the app needs it)*
 ****
 ### <a name="section2">Section 2 : NPM Commands</a>
 #### [Back to Table of Contents](#tableofcontents)
@@ -80,6 +83,7 @@ Notes:
 - zombie  
 - mocha (use replit tests instead?)
 - passport
+- socket.io
 - cors
 - gridjs
 - print-js
