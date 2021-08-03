@@ -21,10 +21,10 @@
 - Server Design (decide which one to use depending on the app requirements, Node, Python, PHP)
 - App Hosting *(replit, glitch, heroku, etc)* 
 - Tests *(unit, functional, headless ; focus on the app fucntionality(use BDD, a better way of thinking but still a TDD)(make tests first before making the app, the app DEVELOPMENT should be DRIVEN, by what BEHAVIOUR the app makes when conditions/request/etc. are met.)
-- UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during development, bare minimum inputs and outputs needed that matches with the test, reserve the eyecandy during refactoring)(TAILWIND CSS)
+- UI/UX Design *(plan out how you want your users to interact with your app)*(basic design only during development, bare minimum inputs and outputs needed that matches with the test, reserve the eyecandy during refactoring)(TAILWIND CSS)(validation checks on user inputs in client side)
 - Authentication *(Passport local and Oauth)*
-- Code (focus on coding per feature, code the front and back end together, use  MVC architecture)
-- Security *(sql injections, hacks, vulnerabilities, unintentional public API), verify user inputs on server side*
+- Code (focus on coding per feature, behavior code the front and back end together, use  MVC architecture)(validate user inputs)
+- Security *(sql injections, hacks, vulnerabilities, unintentional public API)
 - User Stories *(simulated user exp)*
 - User Review *(get it out ASAP)*
 - Refactoring *(optimize your code)*
