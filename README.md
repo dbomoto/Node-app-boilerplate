@@ -78,10 +78,10 @@ Notes:
 - mongodb
 - mongoose
 - nodemon
-- chai  (use replit tests instead?)
-- chai-http (use replit tests instead?)
-- zombie  
-- mocha (use replit tests instead?)
+- chai  (use replit tests instead? JEST)
+- chai-http (use replit tests instead? JEST)
+- zombie (use replit tests instead? JEST)  
+- mocha (use replit tests instead? JEST)
 - passport
 - socket.io
 - cors
