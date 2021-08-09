@@ -73,8 +73,9 @@ Notes:
 #### [Back to Table of Contents](#tableofcontents)
 - dotenv
 - express
-- boydparser
-- multer
+- boydparser (reads client data for use in req variable)
+- multer (reads client data for use in req variable)
+- app.use(express.urlencoded({extended: false})) (reads client data for use in req variable)
 - mongodb
 - mongoose
 - nodemon
@@ -90,6 +91,7 @@ Notes:
 - tailwindcss
 - postcss
 - autoprefixer
+- @replit/database (install this to use the replit database)
 ****
 ### <a name="section5">Section 5 : Express routes</a>
 #### [Back to Table of Contents](#tableofcontents)
@@ -239,3 +241,39 @@ IDE: replit
 Error: ENOENT: no such file or directory, open '/home/runner/MLOAccountingapp/index.js'
 Solution: renamed "server.js" to "index.js"
 
+IDE: replit
+Error: a package keeps on getting reinstalled
+Solution: delete the line of the package in the pacakge.json config and run npm install
+
+## HOW TO USE REPLIT DATABASE
+(declare these to enable Replit database)
+const Database = require("@replit/database")
+const db = new Database()
+
+(use the functions below to call the API of Replit Database for one time use)(tested and working)
+async function testSET(key,value) {
+  let newUser = await db.set(key,value);
+  return;
+}
+
+async function testGET(key) {
+  let val = await db.get(key);
+  return val;
+}
+
+async function testDELETE(key) {
+  let delUser = await db.delete(key);
+  return;
+}
+
+async function testLIST() {
+  let keys = await db.list();
+  return keys;
+}
+
+(if you need to cascade database calls, use the following style instead of the functions above, to prevent the next api call from being executed earlier than the previous one)
+
+await db.set(key,value)
+await db.get(key)
+
+and so on...
