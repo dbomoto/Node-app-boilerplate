@@ -71,27 +71,50 @@ Notes:
 ****
 ### <a name="section4">Section 4 : Modules / Libraries / Frameworks</a>
 #### [Back to Table of Contents](#tableofcontents)
+
 - dotenv
+
 - express
+
+(chose one below for accesing client data?)
 - boydparser (reads client data for use in req variable)
 - multer (reads client data for use in req variable)
 - app.use(express.urlencoded({extended: false})) (reads client data for use in req variable)
+
+(usualy used together)
 - mongodb
 - mongoose
+
 - nodemon
+
+(usualy used together)
 - chai  (use replit tests instead? JEST)
 - chai-http (use replit tests instead? JEST)
 - zombie (use replit tests instead? JEST)  
 - mocha (use replit tests instead? JEST)
+
+(usualy used together)
 - passport
+- passport-local (username and password version)
+- express-session (store and persist our user across different pages)
+- express-flash (display messages when you fail to login)
+
 - socket.io
+
 - cors
+
 - gridjs
+
 - print-js
+
+(usualy used together)
 - tailwindcss
 - postcss
 - autoprefixer
+
 - @replit/database (install this to use the replit database)
+
+
 ****
 ### <a name="section5">Section 5 : Express routes</a>
 #### [Back to Table of Contents](#tableofcontents)
