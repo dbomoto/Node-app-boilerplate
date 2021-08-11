@@ -273,7 +273,8 @@ Error: cannot stop a replit server
 Solution:
 It looks like you can use the pidof command to identify the process id and then the kill command to stop it. I had an Express (Node.js) server that I couldn't kill and in the console I kept seeing the error EADDRINUSE (the port was already in use) due to Repl.it running my code automatically.
 So pidof node and then kill <pid> worked for me. Note that in my case there were multiple pids for node so I used the piped commands below to kill all node processes
-
+Source: https://replit.com/talk/ask/How-to-kill-a-running-process/14683
+ 
 ## HOW TO USE REPLIT DATABASE
 (declare these to enable Replit database)
 const Database = require("@replit/database")
