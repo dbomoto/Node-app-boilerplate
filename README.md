@@ -308,4 +308,8 @@ await db.get(key)
 
 and so on...
 
+ # TESTS TO MAKE
+ -Unit tests
+ -Integration tests
+ -End to End tests
 
